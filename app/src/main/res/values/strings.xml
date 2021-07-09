@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HandlePDFupload</string>
+    <string name="img">img</string>
+    <string name="file_name">File Name</string>
 </resources>
