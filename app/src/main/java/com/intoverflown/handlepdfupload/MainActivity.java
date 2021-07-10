@@ -7,11 +7,8 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
-import android.os.FileUtils;
 import android.provider.DocumentsContract;
 import android.provider.OpenableColumns;
-import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 
@@ -22,19 +19,8 @@ import androidx.core.app.ActivityCompat;
 
 import com.intoverflown.handlepdfupload.databinding.ActivityMainBinding;
 
-import java.io.BufferedInputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Base64;
-import java.util.logging.Logger;
 
 public class MainActivity extends AppCompatActivity {
 
